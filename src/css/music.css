@@ -1,0 +1,25 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+#disclaimer {
+    text-align: center;
+}
+p {
+    color: white;
+}
+body {
+    background-color: black;
+}
+#carthing {
+  border: 50px solid white;
+  border-radius: 10px;
+  padding: 3px; 
+  border-width: 30px;
+  width: 300px;
+  height: 250px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
