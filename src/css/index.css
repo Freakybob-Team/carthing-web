@@ -1,0 +1,12 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+#disclaimer {
+    text-align: center;
+}
+p {
+    color: white;
+}
+body {
+    background-color: black;
+}
