@@ -13,9 +13,21 @@
     <div id="container">
 
     <div id="carthing">
-
+        <h1 style="text-align: center;">Musy</h1>
+        <form onclick="runMusy(); return false">
+            <label for="musy">Music URL (Please use public domain music! We do not endorse piracy.)</label><br>
+            <input type="text" id="musy" name="musy" placeholder="https://ncs.io/" class="musy">
+            <input type="submit" value="Submit" class="button" id="btn">
+        </form>
     </div>
     </div>
     <footer><p id="disclaimer">Not affilated with Spotify.</p></footer>
+    <script>
+    function runMusy() {
+        murl = document.getElementById("musy").value
+        player = document.getElementById("player")
+        player.src=murl;
+    }
+</script>
 </body>
 </html>
